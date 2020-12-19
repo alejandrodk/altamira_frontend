@@ -1,0 +1,30 @@
+env:
+  browser: true
+  es2020: true
+  es6: true
+extends:
+  - eslint:recommended
+  - plugin:react/recommended
+  - plugin:react-hooks/recommended
+  - google
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+    modules: true
+  ecmaVersion: 2018
+  sourceType: module
+plugins:
+  - react
+  - react-hooks
+rules:
+  {
+    'arrow-parens': 0,
+    'require-jsdoc': 0,
+    'react/prop-types': 0,
+    'react/jsx-uses-react': 2,
+    'react/jsx-uses-vars': 2,
+    'react/react-in-jsx-scope': 2,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
+    'react/jsx-filename-extension': 0,
+  }

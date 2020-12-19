@@ -1,0 +1,11 @@
+{
+    "presets": [],
+    "plugins": ["@babel/plugin-syntax-optional-chaining"],
+    "env": {
+      "development": {
+        "sourceMaps": true,
+        "retainLines": true
+      }
+    }
+  }
+  

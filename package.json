@@ -11,11 +11,23 @@
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:fix": "eslint . --ext=js,jsx; exit 0"
   },
   "eslintConfig": {
     "extends": [
